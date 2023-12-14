@@ -7,8 +7,8 @@ dixt = {97: 'a', 98: 'b', 99: 'c', 100: 'd', 101: 'e', 102: 'f', 103: 'g', 104: 
 a = input()
 sp = []
 x = 0
-while x != len(a) - 1:
-    if a[x] == 9:
+while x != len(a):
+    if a[x] == "9":
         sp.append(int(a[x] + a[x + 1]))
         x += 2
     else:
